@@ -2,3 +2,5 @@
 /.buildpath
 /.project
 /composer.phar
+/vendor
+/composer.lock

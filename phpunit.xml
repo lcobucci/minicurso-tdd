@@ -4,5 +4,8 @@
 		<testsuite name="Test Suite para o projeto Biblioteca">
 			<directory>test/PHPSC/Conf2012/Tdd/Biblioteca</directory>
 		</testsuite>
+		<testsuite name="Test Suite para os exemplos de testes">
+			<directory>test/PHPSC/Conf2012/Tdd/Exemplos</directory>
+		</testsuite>
 	</testsuites>
 </phpunit>

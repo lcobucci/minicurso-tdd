@@ -4,3 +4,16 @@ set_include_path(
     . __DIR__ . '/src'
 );
 
+spl_autoload_register(
+    function ($className)
+    {
+        $className = ltrim($className, '\\');
+        $filename = strtr($className, '\\', DIRECTORY_SEPARATOR) . '.php';
+
+        if (stream_resolve_include_path($filename)) {
+            include $filename;
+
+            return true;
+        }
+    }
+);

@@ -1,12 +1,13 @@
 <?php
+namespace PHPSC\Conf2012\Tdd\Exemplos\Asserts;
 
-namespace PHPSC\Conf2012\Tdd\Exemplos;
-
+use PHPSC\Conf2012\Tdd\Exemplos\Calculadora;
+use PHPUnit_Framework_TestCase;
 
 /**
  * Calculadora test case.
  */
-class CalculadoraTest extends \PHPUnit_Framework_TestCase 
+class CalculadoraTest extends PHPUnit_Framework_TestCase 
 {
 	
 	/**
